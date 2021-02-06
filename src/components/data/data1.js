@@ -1,0 +1,56 @@
+export const data1 = {
+	id: 1,
+	name: "Чемпионат по программированию",
+	date: "2020-02-01T09:00:00Z",
+	participants: [
+		{
+			id: 1,
+			first_name: "Антипов",
+			middle_name: "Алексей",
+			last_name: "Фёдорович",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image1.jpg",
+		},
+		{
+			id: 2,
+			first_name: "Власова",
+			middle_name: "Екатерина",
+			last_name: "Александровна",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image2.jpg",
+		},
+		{
+			id: 3,
+			first_name: "Лебедева",
+			middle_name: "Софья",
+			last_name: "Николаевна",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image3.jpg",
+		},
+		{
+			id: 4,
+			first_name: "Сидорова",
+			middle_name: "Дана",
+			last_name: "Ивановна",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image4.jpg",
+		},
+		{
+			id: 5,
+			first_name: "Максимов",
+			middle_name: "Даниил",
+			last_name: "Максимович",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image5.jpg",
+		},
+		{
+			id: 6,
+			first_name: "Калинина",
+			middle_name: "Дарья",
+			last_name: "Максимовна",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image6.jpg",
+		},
+		{
+			id: 7,
+			first_name: "Лукьянова",
+			middle_name: "Ясмина",
+			last_name: "Романовна",
+			photo_url: "https://storage.yandexcloud.net/test-tasks/t1/images/image7.jpg",
+		},
+	],
+}

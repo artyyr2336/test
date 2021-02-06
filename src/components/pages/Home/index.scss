@@ -1,0 +1,62 @@
+.bg {
+	background-image: url("../../../static/img/bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+
+	.circle {
+		vertical-align: middle;
+		align-items: center;
+		display: flex;
+		background: rgba(255, 255, 255, 0.5);
+		backdrop-filter: blur(30px);
+		width: 500px;
+		height: 500px;
+		border-radius: 100%;
+
+		.name {
+			padding: 13px 10px;
+			margin: 0 80px;
+			font-size: 20px;
+			position: absolute;
+			top: 110px;
+			left: 0;
+			right: 0;
+			background: rgba(255, 255, 255, 0.5);
+			border: 2px solid #ffffff;
+			backdrop-filter: blur(30px);
+			border-radius: 30px;
+		}
+		.date {
+			position: absolute;
+			bottom: 110px;
+			left: 0;
+			right: 0;
+			.date-num {
+				padding: 5px;
+				margin: 0 155px;
+				font-size: 12px;
+				background: rgba(255, 255, 255, 0.5);
+				border: 2px solid #ffffff;
+				backdrop-filter: blur(30px);
+				border-radius: 30px;
+			}
+		}
+	}
+
+	// @keyframes rotation {
+	// 	from {
+	// 		transform: rotate(0deg) translateX(300px) rotate(0deg);
+	// 	}
+	// 	to {
+	// 		transform: rotate(360deg) translateX(300px) rotate(-360deg);
+	// 	}
+	// }
+}
